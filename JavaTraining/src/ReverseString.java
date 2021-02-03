@@ -2,17 +2,10 @@ import java.util.Scanner;
 
 public class ReverseString {
 
-    public static void main(String[] args) {
-
-        System.out.println("Enter the word you wish to reverse: ");
-        Scanner sc = new Scanner(System.in);
-        String word= sc.nextLine();
-
-        String r = reverse(word);
-        System.out.print(r);
+    public ReverseString() {
     }
 
-    public static String reverse(String s){
+    public String reverse(String s){
 
         char [] letters =   new char[s.length()];
         int index =0;
